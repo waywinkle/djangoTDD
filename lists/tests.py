@@ -14,11 +14,11 @@ class HomePageTest(TestCase):
         self.assertEqual(found.func, home_page)
 
     def test_home_page_returns_correct_html(self):
-        request = Client()
-        response = request.get('/')
+        request = HttpRequest()
+        response = home_page(request)
         expected_html = render_to_string('home.html')
-        self.assertTemplateUsed(response, 'home.html')
-        #self.assertEqual(response.content.decode(), expected_html)
+        #self.assertTemplateUsed(response, 'home.html')
+        self.assertEqual(response.content.decode(), expected_html)
 
     def test_home_page_can_save_a_POST_request(self):
         request = HttpRequest()
@@ -30,7 +30,6 @@ class HomePageTest(TestCase):
         self.assertIn('A new list item', response.content.decode())
         expected_html = render_to_string(
             'home.html',
-                {'new_item_text', 'A new list item'}
+            {'new_item_text': 'A new list item'}
         )
-        print(response.content.decode())
         self.assertEqual(response.content.decode(), expected_html)
