@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3daa4bb0-7d16-4808-83f2-62e49b33ae94" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lists/forms.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lists/tests/test_forms.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lists/models.py" afterPath="$PROJECT_DIR$/lists/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lists/tests/test_models.py" afterPath="$PROJECT_DIR$/lists/tests/test_models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lists/views.py" afterPath="$PROJECT_DIR$/lists/views.py" />
     </list>
     <ignored path="djangoTDD.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -20,7 +20,8 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/djangoTDD$functional_tests.coverage" NAME="functional_tests Coverage Results" MODIFIED="1453098808403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/djangoTDD" />
-    <SUITE FILE_PATH="coverage/djangoTDD$Unittests_in_base.coverage" NAME="Unittests in base Coverage Results" MODIFIED="1454899935905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/djangoTDD" />
+    <SUITE FILE_PATH="coverage/djangoTDD$lists.coverage" NAME="lists Coverage Results" MODIFIED="1454910082439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/djangoTDD$Unittests_in_base.coverage" NAME="Unittests in base Coverage Results" MODIFIED="1454909971266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/djangoTDD" />
     <SUITE FILE_PATH="coverage/djangoTDD$Unittests_in_functional_tests.coverage" NAME="Unittests in functional_tests Coverage Results" MODIFIED="1453620468634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/djangoTDD" />
     <SUITE FILE_PATH="coverage/djangoTDD$Unittest_NewVisitorTest_test_can_start_a_list_and_retrieve_it_later.coverage" NAME="Unittest NewVisitorTest.test_can_start_a_list_and_retrieve_it_later Coverage Results" MODIFIED="1453099197042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/djangoTDD" />
   </component>
@@ -36,28 +37,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/djangoTDD/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_list_item_validation.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/functional_tests/test_list_item_validation.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="test_views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lists/tests/test_views.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -70,13 +49,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lists/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35849056">
+            <state vertical-scroll-proportion="0.0">
               <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_forms.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lists/tests/test_forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6455696">
+              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lists/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -119,8 +122,8 @@
       <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lists/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.666667">
-              <caret line="14" column="50" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="54" />
+            <state vertical-scroll-proportion="-12.0">
+              <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -187,9 +190,11 @@
         <option value="$PROJECT_DIR$/lists/tests/test_views.py" />
         <option value="$PROJECT_DIR$/lists/templates/home.html" />
         <option value="$PROJECT_DIR$/lists/templates/list.html" />
-        <option value="$PROJECT_DIR$/lists/models.py" />
         <option value="$PROJECT_DIR$/lists/tests/test_models.py" />
         <option value="$PROJECT_DIR$/lists/views.py" />
+        <option value="$PROJECT_DIR$/lists/models.py" />
+        <option value="$PROJECT_DIR$/lists/forms.py" />
+        <option value="$PROJECT_DIR$/lists/tests/test_forms.py" />
       </list>
     </option>
   </component>
@@ -199,9 +204,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
-    <option name="width" value="1922" />
-    <option name="height" value="1055" />
+    <option name="width" value="1914" />
+    <option name="height" value="1052" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -311,7 +315,7 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../p27test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lists" />
     <property name="editor.config.accepted" value="true" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
@@ -320,7 +324,7 @@
       <recent name="$PROJECT_DIR$/functional_tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in base">
+  <component name="RunManager" selected="Python tests.lists">
     <configuration default="false" name="functional_tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -625,11 +629,35 @@
       <option name="customRunCommand" value="" />
       <method />
     </configuration>
-    <list size="4">
+    <configuration default="false" name="lists" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="$USER_HOME$/djangoTDD/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="djangoTDD" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="python3 manage.py test lists" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="$PROJECT_DIR$/lists" />
+      <option name="TEST_TYPE" value="TEST_FOLDER" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Django server.djangoTDD" />
       <item index="1" class="java.lang.String" itemvalue="Python.functional_tests" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest NewVisitorTest.test_can_start_a_list_and_retrieve_it_later" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in base" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.lists" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest NewVisitorTest.test_can_start_a_list_and_retrieve_it_later" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in base" />
     </list>
     <recent_temporary>
       <list size="3">
@@ -875,7 +903,13 @@
       <option name="project" value="LOCAL" />
       <updated>1454903174745</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="use get_absolute_url on List model to DRY urls in views">
+      <created>1454903703463</created>
+      <option name="number" value="00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1454903703463</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -891,14 +925,8 @@
     <history-entry file="Unittests_in_base - 2016.02.08 at 15h 52m 16s.xml">
       <configuration name="Unittests in base" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_functional_tests - 2016.01.24 at 20h 25m 22s.xml">
-      <configuration name="Unittests in functional_tests" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_functional_tests - 2016.01.24 at 20h 26m 23s.xml">
-      <configuration name="Unittests in functional_tests" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_functional_tests - 2016.01.24 at 20h 26m 48s.xml">
-      <configuration name="Unittests in functional_tests" configurationId="tests" />
+    <history-entry file="Unittests_in_base - 2016.02.08 at 18h 39m 31s.xml">
+      <configuration name="Unittests in base" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_functional_tests - 2016.01.24 at 20h 26m 59s.xml">
       <configuration name="Unittests in functional_tests" configurationId="tests" />
@@ -908,6 +936,12 @@
     </history-entry>
     <history-entry file="Unittests_in_functional_tests - 2016.01.24 at 20h 27m 51s.xml">
       <configuration name="Unittests in functional_tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="lists - 2016.02.08 at 18h 40m 45s.xml">
+      <configuration name="lists" configurationId="tests" />
+    </history-entry>
+    <history-entry file="lists - 2016.02.08 at 18h 41m 22s.xml">
+      <configuration name="lists" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView" selected-index="4">
@@ -920,18 +954,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1922" height="1055" extended-state="6" />
+    <frame x="0" y="0" width="1914" height="1052" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45824412" sideWeight="0.49466383" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45972073" sideWeight="0.49466383" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26947704" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27063236" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3019272" sideWeight="0.49786323" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.301826" sideWeight="0.49786323" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2783726" sideWeight="0.50533617" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24304068" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -956,7 +990,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="changes to ft and home template" />
     <MESSAGE value="change to ft" />
     <MESSAGE value="model for list item and migrations" />
     <MESSAGE value="redirect after post and show all items in templates" />
@@ -981,7 +1014,8 @@
     <MESSAGE value="refactor lists view to handle new item POSTs" />
     <MESSAGE value="enforce model validation in list view" />
     <MESSAGE value="refactor hard-coded URLs out of templates" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor hard-coded URLs out of templates" />
+    <MESSAGE value="use get_absolute_url on List model to DRY urls in views" />
+    <option name="LAST_COMMIT_MESSAGE" value="use get_absolute_url on List model to DRY urls in views" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1296,16 +1330,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
-            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#0#25#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lists/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.666667">
-          <caret line="14" column="50" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1345,13 +1371,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lists/models.py">
+    <entry file="file://$PROJECT_DIR$/lists/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#45#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lists/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.0">
+          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1365,12 +1399,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lists/views.py">
+    <entry file="file://$PROJECT_DIR$/lists/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35849056">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <element signature="e#0#45#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lists/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lists/tests/test_forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6455696">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
