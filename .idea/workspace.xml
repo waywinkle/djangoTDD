@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="3daa4bb0-7d16-4808-83f2-62e49b33ae94" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functional_tests/test_list_item_validation.py" afterPath="$PROJECT_DIR$/functional_tests/test_list_item_validation.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lists/models.py" afterPath="$PROJECT_DIR$/lists/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lists/tests/test_models.py" afterPath="$PROJECT_DIR$/lists/tests/test_models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lists/forms.py" afterPath="$PROJECT_DIR$/lists/forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lists/tests/test_forms.py" afterPath="$PROJECT_DIR$/lists/tests/test_forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lists/tests/test_views.py" afterPath="$PROJECT_DIR$/lists/tests/test_views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lists/views.py" afterPath="$PROJECT_DIR$/lists/views.py" />
     </list>
     <ignored path="djangoTDD.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/lists/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
               </folding>
@@ -74,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="forms.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lists/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.9357143">
+              <caret line="41" column="47" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -90,7 +91,7 @@
         <entry file="file://$PROJECT_DIR$/lists/tests/test_views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="84" column="41" selection-start-line="84" selection-start-column="41" selection-end-line="84" selection-end-column="41" />
+              <caret line="97" column="76" selection-start-line="97" selection-start-column="76" selection-end-line="97" selection-end-column="76" />
               <folding>
                 <element signature="e#0#44#0" expanded="true" />
               </folding>
@@ -108,21 +109,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_models.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lists/tests/test_models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.87142855">
-              <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="test_forms.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lists/tests/test_forms.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <caret line="36" column="55" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -191,13 +182,13 @@
         <option value="$PROJECT_DIR$/lists/urls.py" />
         <option value="$PROJECT_DIR$/asdf.html" />
         <option value="$PROJECT_DIR$/lists/templates/base.html" />
-        <option value="$PROJECT_DIR$/lists/tests/test_views.py" />
-        <option value="$PROJECT_DIR$/lists/tests/test_forms.py" />
-        <option value="$PROJECT_DIR$/lists/forms.py" />
-        <option value="$PROJECT_DIR$/lists/views.py" />
         <option value="$PROJECT_DIR$/functional_tests/test_list_item_validation.py" />
         <option value="$PROJECT_DIR$/lists/models.py" />
+        <option value="$PROJECT_DIR$/lists/tests/test_views.py" />
+        <option value="$PROJECT_DIR$/lists/views.py" />
         <option value="$PROJECT_DIR$/lists/tests/test_models.py" />
+        <option value="$PROJECT_DIR$/lists/tests/test_forms.py" />
+        <option value="$PROJECT_DIR$/lists/forms.py" />
       </list>
     </option>
   </component>
@@ -947,7 +938,19 @@
       <option name="project" value="LOCAL" />
       <updated>1455695171762</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="implement duplicate item validation at model layer">
+      <created>1455776051062</created>
+      <option name="number" value="00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1455776051062</updated>
+    </task>
+    <task id="LOCAL-00045" summary="implement duplicate item validation at model layer">
+      <created>1455779183353</created>
+      <option name="number" value="00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1455779183353</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1028,7 +1031,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="new url, lists and views" />
     <MESSAGE value="add url for forms and moved code into views" />
     <MESSAGE value="made new table list and added foreign key contraint on item" />
     <MESSAGE value="new url + view for adding to existing lists. ft passes" />
@@ -1053,7 +1055,8 @@
     <MESSAGE value="rename all item input ids and name. everything still broken" />
     <MESSAGE value="use form in all views, back to working state" />
     <MESSAGE value="switch to saving from the form" />
-    <option name="LAST_COMMIT_MESSAGE" value="switch to saving from the form" />
+    <MESSAGE value="implement duplicate item validation at model layer" />
+    <option name="LAST_COMMIT_MESSAGE" value="implement duplicate item validation at model layer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1373,41 +1376,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lists/tests/test_forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/django18/lib/python3.4/site-packages/django/forms/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33214286">
           <caret line="444" column="8" selection-start-line="444" selection-start-column="8" selection-end-line="444" selection-end-column="8" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lists/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lists/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1442,18 +1415,50 @@
     <entry file="file://$PROJECT_DIR$/lists/tests/test_views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="84" column="41" selection-start-line="84" selection-start-column="41" selection-end-line="84" selection-end-column="41" />
+          <caret line="97" column="76" selection-start-line="97" selection-start-column="76" selection-end-line="97" selection-end-column="76" />
           <folding>
             <element signature="e#0#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lists/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lists/tests/test_models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.87142855">
-          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lists/tests/test_forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="55" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lists/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9357143">
+          <caret line="41" column="47" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
